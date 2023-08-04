@@ -3,7 +3,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: docker/dev-environments-javascript:latest
+    image: node
     init: true
     volumes:
     - type: bind
